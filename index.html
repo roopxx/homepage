@@ -3,7 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="bundle.js" defer></script>
     <title>Homepage</title>
   </head>
-  <body></body>
+  <body class="bg-black">
+    <header
+      class="text-white w-full mx-auto px-4 fixed top-0 bg-transparent shadow"
+    >
+      <nav class="md:flex p-6 justify-between items-center">
+        <div class="flex justify-between items-center">
+          <span class="text-4xl">roopxx</span>
+          <button class="nav_button md:hidden">X</button>
+        </div>
+        <div>
+          <ul class="nav_list gap-8 md:flex float-right md:space-y-0 space-y-6">
+            <li class="text-2xl md:mt-0 mt-6">Home</li>
+            <li class="text-2xl"><a href="about.html">About</a></li>
+            <li class="text-2xl"><a href="projects.html">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </body>
 </html>
