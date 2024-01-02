@@ -8,22 +8,51 @@
     <title>Homepage</title>
   </head>
   <body class="bg-black">
-    <header
-      class="text-white w-full mx-auto px-4 fixed top-0 bg-transparent shadow"
-    >
-      <nav class="md:flex p-6 justify-between items-center">
+    <header class="text-white w-full px-10 py-6 fixed bg-transparent shadow">
+      <nav class="md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
-          <span class="text-4xl">roopxx</span>
-          <button class="nav_button md:hidden">X</button>
+          <h2 class="text-4xl font-bold tracking-wider">roopxx</h2>
+          <button class="nav_button md:hidden">
+            <svg
+              fill="#ffffff"
+              width="28px"
+              height="28px"
+              viewBox="0 -2 28 28"
+              xmlns="http://www.w3.org/2000/svg"
+              stroke="#ffffff"
+              stroke-width="0.00028"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke="#CCCCCC"
+                stroke-width="0.11200000000000002"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path d="m0 0h27.65v5.219h-27.65z"></path>
+                <path d="m0 9.39h27.65v5.219h-27.65z"></path>
+                <path d="m0 18.781h27.65v5.219h-27.65z"></path>
+              </g>
+            </svg>
+          </button>
         </div>
         <div>
-          <ul class="nav_list gap-8 md:flex float-right md:space-y-0 space-y-6">
+          <ul
+            class="nav_list gap-8 md:flex text-right md:space-y-0 space-y-6 hidden"
+          >
             <li class="text-2xl md:mt-0 mt-6">Home</li>
-            <li class="text-2xl"><a href="about.html">About</a></li>
-            <li class="text-2xl"><a href="projects.html">Projects</a></li>
+            <li class="text-2xl"><a href="">About</a></li>
+            <li class="text-2xl"><a href="">Projects</a></li>
           </ul>
         </div>
       </nav>
     </header>
+    <main class="">
+      <section id="home"></section>
+      <section id="about"></section>
+      <section id="projects"></section>
+    </main>
   </body>
 </html>
