@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .circle {
+    position: fixed;
+    opacity: 5;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    transition: transform 350ms ease;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+  }
+
+  .enlarge {
+    transform: translate(-50%, -50%) scale(3);
+  }
+}
