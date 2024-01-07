@@ -14,13 +14,15 @@
   <body class="bg-black">
     <div class="hidden circle md:block"></div>
     <header
-      class="text-white w-full px-10 py-6 top-0 fixed bg-transparent shadow"
+      class="text-white w-full px-10 py-6 top-0 fixed z-10 bg-transparent shadow backdrop-blur-sm"
     >
       <nav class="md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
           <h2 class="this text-4xl font-bold tracking-wider">roopxx</h2>
-          <button class="this nav_button md:hidden">
-            <div class="bar m-0 p-0">
+          <button class="this border nav_button md:hidden">
+            <div
+              class="bar m-0 p-0 transition-transform hover:duration-300 hover: hover:ease-linear hover:rotate-180"
+            >
               <svg
                 fill="#ffffff"
                 width="28px"
@@ -45,25 +47,30 @@
                 </g>
               </svg>
             </div>
-            <div class="cross hidden m-0 p-0">
+            <div
+              class="cross hidden m-0 p-0 transition-transform hover:duration-300 hover: hover:ease-linear hover:rotate-180"
+            >
               <svg
                 fill="#ffffff"
-                width="40px"
-                height="40px"
-                viewBox="0 0 1024 1024"
+                width="28px"
+                height="28px"
+                viewBox="0 0 16.00 16.00"
                 xmlns="http://www.w3.org/2000/svg"
                 stroke="#ffffff"
-                stroke-width="26.624000000000002"
+                stroke-width="0.8"
               >
                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                 <g
                   id="SVGRepo_tracerCarrier"
                   stroke-linecap="round"
                   stroke-linejoin="round"
+                  stroke="#CCCCCC"
+                  stroke-width="0.8"
                 ></g>
                 <g id="SVGRepo_iconCarrier">
                   <path
-                    d="M697.4 759.2l61.8-61.8L573.8 512l185.4-185.4-61.8-61.8L512 450.2 326.6 264.8l-61.8 61.8L450.2 512 264.8 697.4l61.8 61.8L512 573.8z"
+                    d="M0 14.545L1.455 16 8 9.455 14.545 16 16 14.545 9.455 8 16 1.455 14.545 0 8 6.545 1.455 0 0 1.455 6.545 8z"
+                    fill-rule="evenodd"
                   ></path>
                 </g>
               </svg>
