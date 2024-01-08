@@ -37,7 +37,7 @@ window.addEventListener("mousemove", function (e) {
   circle.style.top = e.clientY + "px";
 });
 
-const nonHovers = document.querySelectorAll(".tech-stack");
+const nonHovers = document.querySelectorAll(".not-this");
 
 nonHovers.forEach((noHover) => {
   noHover.addEventListener("mouseenter", () => {
